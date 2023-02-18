@@ -1,5 +1,7 @@
 import React from 'react'
-import './style.scss'
+import './style.scss';
+import { FaBolt } from 'react-icons/fa'
+
 const Header = () => {
   return (
     <div className='header-container'> 
@@ -16,7 +18,7 @@ const Header = () => {
             </ul>
          </div>
          <div className="btn">
-            <button>Rent Now</button>
+            <button><FaBolt style={{marginRight:'10px'}}/>Rent Now</button>
          </div>
     </div>
   )

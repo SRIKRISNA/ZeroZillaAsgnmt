@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 *{
     padding: 0;
     margin: 0;
-    color: rgb(21, 22, 22);
+    color: rgb(53, 54, 54);
 }
+// header
 .header-container{
     display: flex;
     align-items: center;
@@ -21,6 +23,9 @@ ul li{
     margin-right: 50px;
     flex:2;
 }
+li:hover{
+    color: #8d1;
+}
 ul{
     display: flex;
     justify-content: center;
@@ -33,4 +38,144 @@ button{
     outline: 0;
     border: none;
     border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+// banner
+.banner-container{
+    background: rgb(240, 255, 220);
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 50px;
+}
+.content, .sideImg{
+    flex:1;
+}
+.content{
+    margin: 150px 120px 50px 120px;
+}
+#txt-highlight{
+    border-radius: 30px;
+    background: #fff;
+    width: max-content;
+    padding: 5px 20px;
+    color: #8d1;
+}
+h1{
+    font-size:50px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+// about
+.about, .vision, .about-info{
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    padding: 70px ;
+}
+.content1{
+    margin: 0 50px;
+}
+.mission h2{
+    color: #8d1;
+    margin-bottom: 25px;
+}
+.vision{
+    background-color: rgb(239, 255, 216);
+}
+.mission{
+    margin: 0 30px ;
+}
+// about info
+.about-info{
+    justify-content: space-between;
+}
+.imgBanner{
+    color: #fff;
+    // width: 650px;
+    text-align: center;
+}
+.imgBanner p{
+    // width: 650px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+#imgbnr{
+    margin-bottom: -180px;
+    width: 100%;
+}
+
+// counter
+
+.counters{
+    padding:150px 100px 50px 100px;
+    background-color: rgb(241, 241, 241);
+}
+.title-counter{
+    display: flex;
+}
+.counter-heading{
+    width: 50%;
+    float: left;
+    // margin-bottom: 70px;
+}
+.counter-hr{
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.box{
+    border-radius: 10px;
+    margin: 40px 20px;
+    padding: 40px;
+    // border: 1px solid gray;
+    text-align: center;
+    background-color: white;
+    h3{
+        color: rgb(194, 186, 186);
+    }
+}
+.box button{
+    margin-top: 40px;
+    
+}
+// clients
+// .client-heading{
+//     width: 20%;
+//     float: left;
+// }
+.client-hr{
+    padding-top: 15px;
+    padding-left: 30px;
+    width: 10%;
+    float: right;
+}
+.clients{
+    padding: 80px;
+    float: left;
+    // width: 100%;
+    .box {
+        border:1px solid gray;
+        padding: 10px;
+        width: 100%;
+        img{
+            margin:20px;
+        }
+    }
+}
+// Testimonials
+.test{
+
+}
+.test-container{
+    margin: 100px;
+    overflow: hidden;
+    display: flex;
 }
