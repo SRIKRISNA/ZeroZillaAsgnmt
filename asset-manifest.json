@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ZeroZillaAsgnmt/static/css/main.be830d4e.css",
+    "main.js": "/ZeroZillaAsgnmt/static/js/main.e68f4635.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/ZeroZillaAsgnmt/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/motor.png": "/ZeroZillaAsgnmt/static/media/motor.eca40cf8076852444315.png",
+    "static/media/side2.jpg": "/ZeroZillaAsgnmt/static/media/side2.e2aa4ed4cfe7c27de5bd.jpg",
+    "static/media/side1.png": "/ZeroZillaAsgnmt/static/media/side1.b76750da9d71d85d7d6b.png",
+    "static/media/slide1.jpg": "/ZeroZillaAsgnmt/static/media/slide1.d17286c9d77f6f3c1414.jpg",
+    "static/media/slide2.jpg": "/ZeroZillaAsgnmt/static/media/slide2.fb6e4be4546e1928b05d.jpg",
+    "static/media/slide3.jpg": "/ZeroZillaAsgnmt/static/media/slide3.bb5f930415dbedace561.jpg",
+    "static/media/logo.svg": "/ZeroZillaAsgnmt/static/media/logo.a2f6777a2049ecde2163c711ce44aae2.svg",
+    "index.html": "/ZeroZillaAsgnmt/index.html",
+    "main.be830d4e.css.map": "/ZeroZillaAsgnmt/static/css/main.be830d4e.css.map",
+    "main.e68f4635.js.map": "/ZeroZillaAsgnmt/static/js/main.e68f4635.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/ZeroZillaAsgnmt/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be830d4e.css",
+    "static/js/main.e68f4635.js"
+  ]
+}
