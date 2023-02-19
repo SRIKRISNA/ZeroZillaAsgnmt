@@ -7,6 +7,7 @@ import slide2 from '../assests/slide2.jpg';
 import slide3 from '../assests/slide3.jpg';
 import motor from '../assests/motor.png';
 import logos from '../assests/logo.svg';
+import Testimonials from './Testimonials';
 
 
 const About = () => {
@@ -108,7 +109,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="testimonials"></div>
+            
         </div>
     )
 }

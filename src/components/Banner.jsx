@@ -12,7 +12,7 @@ const Banner = () => {
                 <p style={{color:'gray', margin:'15px 0'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam officiis exercitationem ea. Vero, qui dicta?</p>
                 <div className="btn">
                     <button><FaBolt style={{ marginRight: '10px' }} />Rent Now</button>
-                    <button style={{background:'#fff', color:'#000'}}>Enquire Now</button>
+                    <button style={{background:'#fff', color:'#000', marginLeft:'25px'}}>Enquire Now</button>
                 </div>
             </div>
             <div className="sideImg">
